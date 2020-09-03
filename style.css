@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #5a5959;
+    font-family: sans-serif;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container,
+.table-container {
+    width: 47%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.form-container h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-container label {
+    margin-bottom: 20px;
+    display: block
+}
+
+.inp{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #adabab;
+    transition: all ease .3s;
+}
+
+.inp:focus {
+    box-shadow: 0px 0px 7px 0px rgba(136, 187, 240, 1);
+    border-color: rgba(136, 187, 240, 1)
+}
+
+.form-container button {
+    padding: 10px 15px;
+    border: 2px solid #66edaa;
+    color: #72fcb7;
+    background: none;
+    letter-spacing: 1px;
+    transition: all ease .4s;
+}
+
+.form-container button:hover {
+    border: 2px solid #1ebf6e;
+    color: #1ebf6e;
+}
+
+.form-container button:active {
+    border: 2px solid #67d49e;
+    color: #67d49e;
+}
+
+.alert{
+    border: 1px solid #de4444;
+}
+
+.success{
+    border: 1px solid #44de44;
+}
+
+
+
+table {
+    width: 100%;
+    border-spacing: 3px;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table-head{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+/*    display: inline-block*/
+    
+}
+table th, table td{
+    padding: 15px 5px;
+}
+table td{
+    font-size: 12px;
+}
+table tr{
+    border-top: 1px solid #e6e6e6
+}
+
+.del ,.edit{
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: none
+    
+}
+
+.del{
+    color: #fff;
+    background: #e85656;
+}
+.del:hover{
+    background: #db3838;
+
+}
+
+.del:active{
+    background: #e08d8d;
+
+}
+
+.edit{
+
+    background: #eda23c;
+}
+.edit:hover{
+    background: #d18928;
+
+}
+
+.edit:active{
+    background: #f5bf75;
+
+}

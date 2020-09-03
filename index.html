@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form onsubmit="return false">
+                <label for="login"><h3>Login</h3><input  class ='inp' placeholder="Your login" type="text" id="login"></label>
+                <label for="password"><h3>Password</h3><input class ='inp' placeholder="Your password" type="password" id="password"></label>
+                <label for="email"><h3>Email</h3><input  class ='inp'placeholder="Your email" type="text" id="email"></label>
+                <button disabled id="submit">Add user</button>
+            </form>
+        </div>
+        <div class="table-container">
+            <table>
+                    <tr class="table-head">
+                        <th>#</th>
+                        <th>Login</th>
+                        <th>Password</th>
+                        <th>Email</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
